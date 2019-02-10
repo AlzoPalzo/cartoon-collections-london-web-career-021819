@@ -2,6 +2,7 @@ def roll_call_dwarves(dwarves)
   dwarves.sort
   dwarves.each_with_index do |dwarf, index|
     puts("#{index}. #{dwarf}")
+  end
 end
 
 def summon_captain_planet# code an argument here
