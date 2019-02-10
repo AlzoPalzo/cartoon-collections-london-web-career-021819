@@ -25,7 +25,6 @@ def find_the_cheese(array)
       if val == "cheddar" || val =="gouda" || val == "camembert"
         return val
       end
-      end
     end
   else
     return nil
