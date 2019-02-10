@@ -24,7 +24,7 @@ def find_the_cheese(array)
     array.map do |val|
       if val == "cheddar" || val =="gouda" || val == "camembert"
         return val
-      end        
+      end
       end
     end
   else
